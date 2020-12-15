@@ -20,7 +20,7 @@ href_tags = soup.find_all('a', href=True)
 #first website we gathered.
 extractedLinks = []
 
-#This is a website in order to keep track of how many websites we have visited
+#This is a variable that is needed to keep track of how many websites we have visited
 amountOfWebsites = 0;
 
 checkSites = []
